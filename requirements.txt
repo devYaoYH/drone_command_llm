@@ -1,0 +1,30 @@
+# Existing dependencies
+djitellopy==2.5.0
+opencv-python
+numpy
+
+# Core LangChain packages
+langchain>=0.1.0
+langchain-core>=0.1.8
+langchain-google-genai>=0.0.5
+
+# Required for OpenAI
+openai>=1.0.0
+
+# Google Generative AI package
+google-generativeai>=0.3.0
+
+# Image handling
+Pillow>=10.0.0
+matplotlib>=3.7.2
+requests>=2.31.0
+opencv-python>=4.7.0
+
+# Server requirements
+fastapi>=0.100.0
+uvicorn>=0.22.0
+pydantic>=2.0.0
+
+# Utilities
+python-dotenv>=1.0.0
+numpy>=1.24.0
